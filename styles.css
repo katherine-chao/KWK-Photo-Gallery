@@ -1,0 +1,28 @@
+body{
+font-family: 'Staatliches', cursive;
+}
+h1{
+background-image:linear-gradient(#ffcfda,#fcf8c5);
+}
+h3{
+  background-image:linear-gradient(#b5fff9,#e8c4ff);
+  font-family: 'Dancing Script', cursive;
+  font-size: 17px;
+}
+/* image container section */
+/*resize image*/
+img {
+  height: 260px;
+  width: 260px;
+  object-fit: cover;
+  /*padding-right: 20px;*/
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  transition: transform .2s; /*Animation*/
+}
+img:hover{
+  transform: scale(1.2);
+}
+<style>
